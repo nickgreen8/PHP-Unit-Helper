@@ -1,0 +1,20 @@
+{
+	"name": "n8g/php-unit-helper",
+	"description": "PHP Unit helper",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Nick Green",
+			"email": "nick@nick8green.co.uk"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"N8G\\PHPUnitHelper\\": "src/"
+		}
+	}
+}
